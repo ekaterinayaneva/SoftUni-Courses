@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Exam Preparation/.idea/Exam Preparation.iml" filepath="$PROJECT_DIR$/Exam Preparation/.idea/Exam Preparation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/For-Loop/.idea/For-Loop.iml" filepath="$PROJECT_DIR$/For-Loop/.idea/For-Loop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/For-Loop - Exercise/.idea/For-Loop - Exercise.iml" filepath="$PROJECT_DIR$/For-Loop - Exercise/.idea/For-Loop - Exercise.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Nested Conditional Statements/.idea/Nested Conditional Statements.iml" filepath="$PROJECT_DIR$/Nested Conditional Statements/.idea/Nested Conditional Statements.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Nested Conditional Statements - Exercise/.idea/Nested Conditional Statements - Exercise.iml" filepath="$PROJECT_DIR$/Nested Conditional Statements - Exercise/.idea/Nested Conditional Statements - Exercise.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Nested Loops - Exercise/.idea/Nested Loops - Exercise.iml" filepath="$PROJECT_DIR$/Nested Loops - Exercise/.idea/Nested Loops - Exercise.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Nested Loops - Lab/.idea/Nested Loops - Lab.iml" filepath="$PROJECT_DIR$/Nested Loops - Lab/.idea/Nested Loops - Lab.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/PycharmProjects.iml" filepath="$PROJECT_DIR$/.idea/PycharmProjects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/REAL EXAM/.idea/REAL EXAM.iml" filepath="$PROJECT_DIR$/REAL EXAM/.idea/REAL EXAM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/While-Loop - Exercise/.idea/While-Loop - Exercise.iml" filepath="$PROJECT_DIR$/While-Loop - Exercise/.idea/While-Loop - Exercise.iml" />
+      <module fileurl="file://$PROJECT_DIR$/While-Loop - Lab/.idea/While-Loop - Lab.iml" filepath="$PROJECT_DIR$/While-Loop - Lab/.idea/While-Loop - Lab.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exam/.idea/exam.iml" filepath="$PROJECT_DIR$/exam/.idea/exam.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test exam/.idea/test exam.iml" filepath="$PROJECT_DIR$/test exam/.idea/test exam.iml" />
+    </modules>
+  </component>
+</project>
