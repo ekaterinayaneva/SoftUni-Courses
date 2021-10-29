@@ -1,0 +1,78 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/static/css/site.css">
+    <title>Pet Care</title>
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li><img class="logo" src="/static/images/paw.svg"></li>
+            <li class="title">Animal Care</li>
+            <li><a href="{% url 'home page' %}">Home</a></li>
+            <li><a href="{% url 'create animal' %}">Add Animal</a></li>
+        </ul>
+    </nav>
+    <div class="content">
+
+        <h1> Sick animals in clinic </h1>
+
+        <div class="animals-container">
+            {% for animal in sick_animals %}
+
+            <div class="animal-card">
+                <img src="{{ animal.image_url }}" alt="{{ animal.name }}">
+                <h3>{{ animal.name }}</h3>
+
+                {% if animal.priority == 'low' %}
+                    <p class="priority low">{{ animal.priority }}</p>
+                {% elif animal.priority == 'medium' %}
+                    <p class="priority medium">{{ animal.priority }}</p>
+                {% else %}
+                    <p class="priority high">{{ animal.priority }}</p>
+                {% endif %}
+
+                <div class="buttons-container">
+
+                    <a class="button details" href="{% url 'animal details' animal.pk %}">Details</a>
+                    <a class="button edit" href="{% url 'edit animal' animal.pk %}">Edit</a>
+                    <a class="button cure" href="{% url 'cure animal' animal.pk %}">Cure</a>
+
+                </div>
+            </div>
+            {% endfor %}
+
+        </div>
+
+        <h1> Cured animals </h1>
+
+        <div class="animals-container">
+            {% for animal in cured_animals %}
+
+            <div class="animal-card" style="margin-bottom: 50px">
+                <img src="{{ animal.image_url }}" alt="{{ animal.name }}">
+                <h3>{{ animal.name }}</h3>
+
+                <p class="priority cured">CURED</p>
+
+                <div class="buttons-container">
+
+                    <a class="button delete" href="{% url 'delete animal' animal.pk %}">Delete</a>
+
+                </div>
+            </div>
+            {% endfor %}
+
+        </div>
+
+
+    </div>
+    <footer> Python Web Basics Retake Exam @SoftUni </footer>
+
+</body>
+
+</html>

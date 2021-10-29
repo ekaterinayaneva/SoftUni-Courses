@@ -1,0 +1,58 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./static/css/site.css">
+    <title>Pet Care</title>
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li><img class="logo" src="./static/images/paw.svg"></li>
+            <li class="title">Animal Care</li>
+            <li><a href="./home_with_sick_and_cured.html">Home</a></li>
+            <li><a href="./create.html">Add Animal</a></li>
+        </ul>
+    </nav>
+    <div class="content">
+
+        <h1>Edit Animal</h1>
+        <form method="POST">
+            <input type="hidden" name="csrfmiddlewaretoken" value="yhn9AgBdvo7Mc6UYrJN23pCItdDOMZrsh0yhf9qTHIA0RUIJmAdpSus50q2LaXIa">
+            <div class="input-group">
+                <label for="name">Animal Name</label>
+                <input type="text" name="name" value="Snaky" maxlength="20" required="" id="id_name">
+            </div>
+            <div class="input-group">
+                <label for="image">Animal Picture</label>
+                <input type="url" name="image_url" value="https://insights.dice.com/wp-content/uploads/2019/11/shutterstock_1386882278-1.jpg" maxlength="200" required="" id="id_image_url">
+            </div>
+            <div class="input-group">
+                <label for="description">Animal Description</label>
+                <textarea name="description" cols="40" rows="4" maxlength="250" required="" id="id_description">Snaky has been rejecting food for one month</textarea>
+            </div>
+            <div class="input-group">
+                <label for="priority">Animal Priority</label>
+                <select name="priority" id="id_priority">
+                    <option value="low">Low</option>
+
+                    <option value="medium">Medium</option>
+
+                    <option value="high" selected="">High</option>
+
+                </select>
+            </div>
+            <div class="input-group">
+                <input class="button edit" type="submit" value="Edit">
+            </div>
+        </form>
+
+    </div>
+    <footer> Python Web Basics Retake Exam @SoftUni </footer>
+
+</body>
+
+</html>
