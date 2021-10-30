@@ -1,0 +1,272 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+p,
+article,
+section,
+nav,
+ul,
+li,
+a,
+div,
+span,
+b,
+strong {
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 100px;
+}
+
+.header-logo img {
+  width: 50%;
+  height: auto;
+}
+
+.header-nav {
+  display: flex;
+}
+
+.header-ul-nav {
+  display: flex;
+}
+
+.header-ul-nav li {
+  list-style: none;
+}
+
+.header-ul-nav li a {
+  text-decoration: none;
+  margin-left: 15px;
+  color: rgb(84, 84, 109);
+  font-weight: bold;
+}
+
+/* MAIN */
+/* FEES */
+
+.fees-img {
+  background-color: rgb(84, 84, 109);
+  color: white;
+  padding: 55px;
+}
+
+.fees-img img {
+  position: relative;
+  top: 28px;
+  left: -126px;
+}
+
+.fees-img h2 {
+  text-align: center;
+  position: relative;
+  bottom: 200px;
+}
+
+.fees-programs {
+  display: flex;
+  margin-left: 77px;
+  margin-right: 77px;
+  position: relative;
+  top: -230px;
+}
+
+button {
+  background-color: rgb(154, 93, 198);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 30px;
+  margin-top: 22px;
+}
+
+.design-basics,
+.fundamentals-program,
+.professional-program {
+  width: 33%;
+  /* border: 1px solid; */
+  border-radius: 10px;
+  margin: 10px;
+  text-align: center;
+  background-color: white;
+}
+
+.program-description {
+  padding-bottom: 30px;
+  color: rgb(84, 84, 109);
+  padding: 20px;
+}
+
+.program-price-basics {
+  position: relative;
+  bottom: -27px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background: rgb(4, 155, 62);
+  background: linear-gradient(
+    90deg,
+    rgba(4, 155, 62, 1) 0%,
+    rgba(43, 187, 98, 1) 50%,
+    rgba(74, 213, 127, 1) 100%
+  );
+}
+
+.program-price-basics h3 {
+  font-size: 20px;
+}
+
+.program-price-basics p {
+  margin-top: 0px;
+}
+
+.program-price {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  font-size: 15px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+/* .program-price .present-education {
+  border-right: 1px solid;
+  padding-right: 20px;
+} */
+
+.border-right {
+  border-right: 1px solid;
+  height: 80px;
+  position: relative;
+  bottom: -10px;
+}
+
+.present-education p:first-child,
+.online-education p:first-child {
+  font-size: 20px;
+}
+
+.fundamentals-price {
+  background: rgb(77, 109, 138);
+  background: linear-gradient(
+    90deg,
+    rgba(77, 109, 138, 1) 0%,
+    rgba(87, 130, 171, 1) 50%,
+    rgba(98, 153, 205, 1) 100%
+  );
+}
+
+.professional-price {
+  background: rgb(76, 57, 167);
+  background: linear-gradient(
+    90deg,
+    rgba(76, 57, 167, 1) 0%,
+    rgba(106, 89, 194, 1) 50%,
+    rgba(139, 124, 224, 1) 100%
+  );
+}
+
+/* TABLE */
+.present-or-online-edu {
+  margin-left: 195px;
+  margin-right: 195px;
+  color: rgb(84, 84, 109);
+  position: relative;
+  top: -140px
+}
+
+.present-or-online-edu h2 {
+  font-size: 20px;
+}
+
+.table {
+  border-radius: 10px;
+  margin-top: 40px;
+}
+
+.table article:first-child {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.table article:nth-child(6) {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.table article:nth-child(odd) {
+  background-color: #e6e6e6;
+  padding: 13px;
+}
+
+.table article:nth-child(even) {
+  background-color: #f8f8f8;
+  padding: 13px;
+}
+
+.table article span:nth-child(2) {
+    margin-left: 250px;
+}
+
+
+.table article span:nth-child(3) {
+    margin-left: 250px;
+}
+
+
+/* POSTBANK */
+.postbank {
+    margin-left: 77px;
+    margin-right: 77px;
+    margin-bottom: 100px;
+  color: rgb(84, 84, 109);
+
+}
+
+.postbank-wrap {
+    display: flex;
+    align-items: center;
+}
+
+.postbank-info {
+    width: 80%;
+    margin-right: 100px;
+}
+
+.postbank-logo {
+    width: 20%;
+}
+
+
+/* FOOTER */
+footer {
+    background-color: rgb(84, 84, 109);
+    color: #8E95AD;
+    text-align: center;
+    padding: 10px;
+}

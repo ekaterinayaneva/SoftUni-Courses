@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+html {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    font-size: 23px;
+}
+
+
+
+.auto {
+    display: flex;
+    margin: 57px 160px 100px 160px;
+}
+
+.page-text {
+    width: 50%;
+    margin-right: 35px;
+}
+
+.page-text p {
+    margin-bottom: 50px;
+}
+
+
+.img, .text {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.benefits h3, .benefits p{
+    margin: 8px;
+}
+
+
+
+
+.page-image {
+    width: 50%;
+
+}
+
+.page-image img {
+    width: 100%;
+}

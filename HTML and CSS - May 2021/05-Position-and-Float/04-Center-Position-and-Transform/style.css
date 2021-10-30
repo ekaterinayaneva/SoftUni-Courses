@@ -1,0 +1,60 @@
+body {
+  background-color: rgb(238, 238, 238);
+  font-size: 17px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Georgia, serif;
+  font-size: 1em;
+  line-height: 1.2;
+  font-weight: bold;
+}
+
+img {
+  position: absolute;
+  width: 100%;
+  object-fit: cover;
+  box-shadow: 1px 1px 45px -1px grey;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.image {
+  position: relative;
+  top: -300px;
+}
+
+.card {
+  background-color: rgb(255, 255, 255);
+  max-width: 450px;
+  border: none;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  box-shadow: 1px 1px 45px -1px grey;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btn {
+  background-color: rgb(0, 153, 0);
+  color: white;
+  margin-bottom: 30px;
+  padding: 9px;
+  border: none;
+  border-radius: 2px;
+  font-size: 14px;
+}
+
+.card-content {
+  margin: 27px;
+  text-align: right;
+}
+
+.card-content h2,
+.card-content p {
+  text-align: left;
+}

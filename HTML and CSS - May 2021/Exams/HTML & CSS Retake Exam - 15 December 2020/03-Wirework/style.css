@@ -1,0 +1,179 @@
+@import url('https://use.fontawesome.com/releases/v5.15.3/css/all.css');
+
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(44, 56, 59);
+}
+
+.nav-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+
+}
+
+.nav-logo p:first-child {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 10px;
+    padding: 10px;
+    border-right: 1px solid rgb(216, 216, 216);
+}
+
+.nav-links {
+    display: flex;
+}
+
+.nav-ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+}
+
+.nav-ul li {
+    list-style: none;
+    border: 1px solid rgb(236, 236, 236);
+    background-color: rgb(236, 236, 236);
+    padding: 20px;
+    margin-right: 3px;
+}
+
+.nav-ul li:first-child {
+    list-style: none;
+    border: 1px solid rgb(226, 78, 42);
+    background-color: rgb(226, 78, 42);
+    padding: 20px;
+    margin-right: 3px;
+}
+
+.nav-ul li a {
+    text-decoration: none;
+}
+
+.image {
+    width: 100wh;
+}
+
+.image img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+/* .paragraph {
+    width: 100%;
+} */
+
+.paragraph p {
+    background-color: rgb(226, 78, 42);
+    margin: 0;
+    text-align: center;
+    padding: 30px 315px;
+    position: relative;
+    top: -4px;
+}
+
+.tools {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(56, 56, 56);
+    color: rgb(96, 100, 103);
+    position: relative;
+    top: -4px;
+    text-align: center;
+    padding: 35px;
+}
+
+.tools article {
+    padding: 30px;
+}
+
+.tools h6 {
+    color: rgb(251, 252, 248);
+    margin: 8px;
+    font-size: 15px;
+    padding-bottom: 4px;
+}
+
+.tools i {
+    font-size: 45px;
+    border: 1px solid rgb(226, 78, 42);
+    background-color: rgb(226, 78, 42);
+    color: rgb(251, 252, 248);
+    padding: 20px;
+}
+
+.tools p {
+    border-top: 1px solid rgb(96, 100, 103);
+    padding: 20px;
+}
+
+.brochure {
+    text-align: center;
+}
+
+.brochure-heading h2{
+    padding-top: 50px;
+    color: rgb(56, 56, 56);
+}
+
+.brochure-heading h4 {
+    color: rgb(96, 100, 103);
+}
+
+.brochure-heading button {
+    background-color: rgb(27, 151, 114);
+    color: rgb(251, 252, 248);
+    padding: 20px 40px;
+    margin-bottom: 80px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid rgb(27, 151, 114);
+}
+
+.tools-infos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(56, 56, 56);
+    color: rgb(96, 100, 103);
+    position: relative;
+    top: -4px;
+    text-align: center;
+    padding: 35px;
+}
+
+.tools-infos h6 {
+    color: rgb(251, 252, 248);
+    margin: 8px;
+    font-size: 20px;
+    padding-bottom: 4px;
+    margin-top: 50px;
+}
+
+.tools-infos p {
+    padding: 20px;
+    padding-bottom: 50px;
+}
+
+footer {
+    background-color: rgb(27, 151, 114);
+    color: rgb(72, 176, 153);
+    text-align: center;
+    padding: 60px 50px;
+    position: relative;
+    top: -4px;
+}

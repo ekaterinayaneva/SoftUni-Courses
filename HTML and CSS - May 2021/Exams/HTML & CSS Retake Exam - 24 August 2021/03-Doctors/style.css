@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER */
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-nav-list {
+    display: flex;
+}
+
+.header-nav-list li {
+    list-style: none;
+    margin-right: 20px;
+}
+
+.header-nav-list li a{
+    text-decoration: none;   
+    color: black; 
+    font-weight: bold;
+}
+
+.header-nav-list li a.red{
+    text-decoration: none;   
+    color: #E32E40; 
+}
+
+
+/* HEADER ABOUT US */
+.header-about-us-img {
+    background: #223A66;
+    display: inline-block;
+    line-height: 0;
+}
+
+.header-about-us img {
+    width: 100%;
+    object-fit: contain;
+    opacity: .2;
+}
+
+.header-about-us-text {
+    text-align: center;
+    color: white;
+    position: relative;
+    top: -300px
+}
+
+.header-about-us-text h1 {
+    font-size: 50px;
+    margin-top: 0;
+}
+
+
+/* MAIN */
+main {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+/* PERSONAL CARE */
+.personal-care {
+    display: flex;
+    position: relative;
+    top: -50px;
+}
+
+.personal-care-heading {
+    width: 30%;
+    font-size: 35px;
+    margin-right: 60px;
+    color: #223A66;
+}
+
+.personal-care-heading h1 {
+    margin-top: 0;
+}
+
+.personal-care-sign {
+    width: 70%;
+    color: #688AA6;
+}
+
+.personal-care-sign p {
+    margin-top: 0;
+}
+
+
+/* BENEFITS */
+.benefits {
+    display: flex;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.benefits-info {
+    margin-right: 25px;
+}
+
+.benefits-info img {
+    width: 100%;
+}
+
+.benefits-info p {
+    color: #688AA6;
+}
+
+
+/* OUR DOCTORS */
+.our-doctors {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 100px;
+
+}
+
+.our-doctors-img-box {
+    background-color: #EFF0F3;
+    margin: 10px;
+}
+
+.our-doctors-img-box img {
+    padding: 10px 30px;
+    width: 190px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.our-doctors-heading {
+    width: 30%;
+    font-size: 35px;
+    margin-right: 60px;
+    color: #223A66;
+}
+
+
+/* OUR DOCTORS */
+.meet-our-specialist {
+    margin-bottom: 50px;
+    margin-top: 200px;
+}
+
+.intro {
+    text-align: center;
+    /* width: 50%; */
+    margin-bottom: 70px;
+}
+
+.intro h1 {
+    width: 30%;
+    font-size: 35px;
+    margin-right: 60px;
+    color: #223A66;
+    margin: 0 auto;
+}
+
+.intro p {
+    color: #688AA6;
+}
+
+.doctors {
+    display: flex;
+    align-items: center;
+
+}
+
+.doc img {
+    width: 100%;
+}
+
+.doctors h5 {
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 0;
+}
+
+.doctors p {
+    color: #688AA6;
+}
+
+.doc {
+    margin-right: 30px;
+
+}

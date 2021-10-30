@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@200;300&display=swap');
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat';
+    color: rgb(43, 43, 43);
+}
+
+p {
+    font-family: 'Poppins';
+    color: rgb(79, 79, 79);
+}
+
+* {
+    box-sizing: inherit;
+}
+
+main {
+    margin: 5%;    
+    vertical-align: center;
+}
+
+.auto, .auto-img {
+    box-sizing: border-box;
+    display: inline-block;
+    max-width: 45%; 
+    margin: 20px;
+    vertical-align: top;
+
+}
+
+.auto-img {
+    vertical-align: top;
+}
+
+.auto-img img{
+    max-width: 100%;
+    width: 100%;
+    vertical-align: top;
+}
+
+.auto {
+    max-width: 48%;
+    font-size: 16px;
+}
+
+.header {
+    margin-bottom: 25px;
+}
+
+
+.benefits-img, .benefits-text {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.benefits-img {
+    width: 65px;
+}
+
+.benefits-img img {
+    width: 100%;
+}
+
+.benefits-text h4, p {
+    margin: 4px ;
+}

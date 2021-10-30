@@ -1,0 +1,87 @@
+* {
+    box-sizing: inherit;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: rgb(238, 238, 238);
+    margin: 2% 10%;
+}
+
+.header {
+    border-bottom: 2px solid black;
+}
+
+.site-title {
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: bold;
+    margin: 10px;
+    margin-left: 0px;
+    display: inline-block;
+}
+
+img {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 15px 3px rgba(0, 0, 0, 0.25);
+    border: 3px solid black;
+    padding: 10px;
+}
+
+.first-img {
+    float: right;
+    margin-left: 20px;
+}
+
+.blockquote-container {
+    float: right;
+    color: rgb(68, 76, 83);
+    margin-left: 0px;
+}
+
+.blockquote {
+    float: right;
+    font-family: Georgia, serif;
+    margin: 0px 2px 5px 20px;
+}
+
+.author {
+    font-family: Georgia, serif;
+    text-align: right;
+    margin: 10px;
+    margin-top: 15px;
+}
+
+.blockquote-container, .blockquote-p {
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+}
+
+.blockquote-p {
+    border-right: 3px solid rgb(221, 221, 221);
+    margin-right: 18px;
+    width: 49%;
+    padding-right: 30px;
+}
+
+.heading-level-2, .heading-level-3 {
+    margin-top: 35px;
+}
+
+.heading-level-1 h2, .heading-level-2 h2  {
+    margin-bottom: -6px
+}
+
+.second-img {
+    float: left;
+    margin: 20px;
+    margin-top: 0px;
+}
+
+h1, h2 {
+    font-family: Georgia, serif;
+}

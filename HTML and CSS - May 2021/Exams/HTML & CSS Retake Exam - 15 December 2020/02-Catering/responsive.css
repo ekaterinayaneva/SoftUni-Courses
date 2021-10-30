@@ -1,0 +1,22 @@
+@media all and (max-width: 600px) {
+    .w3-right {
+        display: none;
+    }
+
+    #about .w3-round {
+        display: none;
+    }
+
+    #about article:nth-child(2) {
+        width: 100%;
+    }
+    
+    #about {
+        padding-top: 40px
+    }
+
+    #menu article {
+        width: 100%;
+    }
+    
+}

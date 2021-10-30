@@ -1,0 +1,94 @@
+@import url('https://use.fontawesome.com/releases/v5.15.3/css/all.css');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body {
+    background-color: rgb(102, 185, 248);
+    color: white;
+    margin: 6% 4%;
+    height: 100vh;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+}
+
+article {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    border-radius: 12px;
+    box-shadow: 0px 3px 7px 0px #535379;
+    background-color: rgb(255, 255, 255);
+    color: rgb(97, 97, 97);
+}
+
+article:hover {
+    cursor: pointer;
+}
+
+img {
+    width: 100%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.card-title, .card-span, .card-p, .card-button {
+    padding-left: 20px;
+}
+
+.card-title, .card-button {
+    color: rgb(255, 165, 45);
+}
+
+.card-span {
+    color: rgb(176, 176, 176);
+    font-size: 14px;
+    width: 75%;
+}
+
+.card-span div:nth-child(1) {
+    padding-right: 20px;
+    width: 50%;
+}
+
+.card-span img {
+    padding-right: 5px;
+    max-width: 13px;
+}
+
+.card-p {
+    padding-right: 20px;
+}
+
+.card-button i {
+    position: relative;
+    top: 24px;
+    padding-left: 10px;
+}
+
+h1, h3 {
+    font-family: Montserrat;
+}
+
+section, article, span, p {
+    font-family: Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.end-btn {
+    text-align: center;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: transparent;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 13px 38px;
+    margin-left: 86%;
+    margin-top: 3%;
+    
+}

@@ -1,0 +1,36 @@
+body {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(238, 238, 238);
+}
+
+header,
+main,
+aside,
+footer {
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px 3px rgb(199, 199, 199);
+  padding: 20px;
+  margin: 10px;
+  background-color: rgb(255, 255, 255);
+
+  flex-shrink: 1;
+  flex-basis: auto;
+}
+
+header,
+footer {
+  flex-basis: 100%;
+  flex-grow: 1;
+  padding-bottom: 60px;
+}
+
+main {
+  flex-grow: 3;
+  padding-bottom: 250px;
+}
+
+aside {
+  flex-grow: 1;
+  padding-bottom: 250px;
+}

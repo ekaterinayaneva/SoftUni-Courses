@@ -1,0 +1,48 @@
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+
+article, aside {
+    display: inline-block;
+}
+
+/* 
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+} */
+
+body {
+    background-color: rgb(238, 238, 238);
+    color: rgb(51, 51, 51) ;
+    height: 250px;
+    margin: 30px;
+    text-align: left;   
+}
+
+body article {
+    /* box-sizing: border-box; */
+    width: 65%;
+
+}
+
+body section img {
+    width: 60%;
+}
+
+aside {
+    vertical-align: top;
+    max-width: 300px;
+    width: 100%;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+ul li {
+    list-style: square;
+}
+

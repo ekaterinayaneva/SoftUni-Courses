@@ -1,0 +1,99 @@
+@media all and (max-width: 600px) {    
+    .tiles {
+        flex-direction: column;
+    }
+
+    .tiles article {
+        width: 100%;
+    }
+
+    #footer {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding-bottom: 24px;
+    }
+
+    #footer > .inner {
+        flex-direction: column;
+    }
+
+    #footer .inner section:nth-child(1) {
+        width: 100%;
+    }
+
+    form .fields {
+        flex-direction: column;
+    }
+
+    form .fields .field {
+        width: 100%;
+    }
+
+    form .fields .field.half {
+        width: 100%;
+    }
+
+    #footer > section > section:nth-child(1) > form > ul > li > input {
+        padding: 0px 166px;
+    }
+
+    #footer .inner section:nth-child(2) {
+        width: 100%;
+        margin: 0;
+        margin-top: 89px;
+    }
+
+}
+
+
+
+
+/* @media all and (min-width: 600px) and (max-width: 900px) {    
+    .tiles {
+        flex-direction: column;
+    }
+
+    .tiles article {
+        width: 50%;
+    }
+
+    #footer {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding-bottom: 24px;
+    }
+
+    #footer > .inner {
+        flex-direction: column;
+    }
+
+    #footer .inner section:nth-child(1) {
+        width: 100%;
+    }
+
+    form .fields {
+        flex-direction: column;
+    }
+
+    form .fields .field {
+        width: 100%;
+    }
+
+    form .fields .field.half {
+        width: 100%;
+    }
+
+    #footer > section > section:nth-child(1) > form > ul > li > input {
+        padding: 0px 166px;
+    }
+
+    #footer .inner section:nth-child(2) {
+        width: 100%;
+        margin: 0;
+        margin-top: 89px;
+    }
+
+} */
+

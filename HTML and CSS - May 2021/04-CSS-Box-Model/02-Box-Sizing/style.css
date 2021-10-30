@@ -1,0 +1,32 @@
+section {
+    width: 250px;
+    height: 250px;
+    border-style: dotted;
+    border-color: rgb(62, 208, 148);
+    margin: auto;
+    text-align: center;
+
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+section p {
+    width: 100%;
+    border: 5px solid rgb(9, 54, 202);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+/* •	The section has width 250px, height 250px and border
+•	The paragraph has width 100%, border and padding 20px on all sides
+•	Set the "universal box-sizing" with inheritance */

@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+p,
+article,
+section,
+nav,
+ul,
+li,
+a,
+div,
+span,
+b,
+strong {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body { 
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+/* HEADING */
+.heading {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    
+}
+
+.heading p {
+    font-size: 25px;
+    font-weight: lighter;
+    margin: 0;
+    color: #1E2121;
+
+}
+
+.heading h1 {
+    font-size: 40px;
+    font-weight: bolder;
+    margin: 15px;
+}
+
+
+/* PROJECTS */
+.projects {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.content {
+    margin-right: 10px;  
+}
+
+.content h4 {
+    margin-right: 17px;
+    margin-left: 23px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.content p {
+    margin-right: 17px;
+    margin-left: 23px;
+    font-size: 18px;
+}
+
+.projects article img {
+    width: 436px;
+    height: 233px;
+    object-fit: contain;
+}
+
+
+/* BUTTON */
+.btn {
+    text-align: center;
+    margin-bottom: 70px;
+    margin-top: 45px;
+}
+
+.btn button {
+    background-color: #FFB600;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
